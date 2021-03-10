@@ -20,3 +20,11 @@ public struct Request<Response> {
     }
 
 }
+
+extension Request: RequestRepresentable {
+    
+    public var request: Request<Response> {
+        self
+    }
+    
+}
