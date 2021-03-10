@@ -1,7 +1,7 @@
 import Foundation
 
 public enum HTTPMethod: Equatable {
-    case get([URLQueryItem]? = nil)
+    case get
     case put(Data?)
     case post(Data?)
     case delete

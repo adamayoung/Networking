@@ -4,7 +4,7 @@ import XCTest
 final class HTTPMethodTests: XCTestCase {
 
     func testName_whenGET() {
-        let method = HTTPMethod.get()
+        let method = HTTPMethod.get
         let expectedResult = "GET"
 
         let result = method.name
