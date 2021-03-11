@@ -14,10 +14,6 @@ let package = Package(
         .library(name: "Networking", targets: ["Networking"])
     ],
 
-    dependencies: [
-        .package(url: "https://github.com/realm/SwiftLint.git", from: "0.43.0")
-    ],
-
     targets: [
         .target(name: "Networking", dependencies: []),
         .testTarget(name: "NetworkingTests", dependencies: ["Networking"])
